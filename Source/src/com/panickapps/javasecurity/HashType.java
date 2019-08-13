@@ -1,5 +1,20 @@
 package com.panickapps.javasecurity;
 
+/**
+ * Created by PaNickApps - 2019
+ * Visit http://www.panickapps.com
+ *
+ * Java Security Essentials - A simple encryption and hashing library for Java.
+ * Provides methods for hashing, symmetric and asymmetric encryption.
+ * Repository: https://github.com/panickapps/java-security-essentials
+ * Guide: https://panickapps.github.io/Java-Security-Essentials/
+ *
+ * Apache 2.0 License
+ */
+
+/**
+ * Defines the hashing algorithms that can be used in hashing methods.
+ */
 public enum HashType {
 
     MD5("MD5"),
@@ -20,4 +35,5 @@ public enum HashType {
     public String toString() {
         return text;
     }
+
 }
