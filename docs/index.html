@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <link rel="shortcut icon" type="image/png" href="images/java-http.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/java_security_essentials.png"/>
     <meta name="theme-color" content="#212121" />
     <title>Java Security Essentials - PaNickApps</title>
 
@@ -25,7 +25,7 @@
             <br><br>
             <h1 class="header center grey-text text-darken-4">Java Security Essentials</h1>
             <div class="row center">
-                <img class="responsive-img" src="images/java-http.png" width="200" />
+                <img class="responsive-img" src="images/java_security_essentials.png" width="200" />
                 <!-- TODO IMAGE! -->
             </div>
             <div class="row center">
@@ -51,7 +51,7 @@
                  <ul class="browser-default">
                      <li><a href="#hashing">Hashing</a>
                          <ul class="browser-default">
-                             <li><a href="#algorithms">Hashing algorithms</a></li>
+                             <li><a href="#hashingAlgorithms">Hashing algorithms</a></li>
                              <li><a href="#salt">Hashing with salt</a></li>
                          </ul>
                      </li>
@@ -76,9 +76,65 @@
             <h5 id="downloadAndImport">Download and import</h5>
 
             <p>
-                You can download Java-HTTP <a href="https://github.com/panickapps/Java-Security-Essentials/blob/master/Download/Java%20Security%20Essentials.jar">here</a>.
+                You can download Java Security Essentials <a href="https://github.com/panickapps/Java-Security-Essentials/blob/master/Download/Java%20Security%20Essentials.jar">here</a>.
                 Then import it in your project as a Java library (.jar).
             </p>
+
+            <h5 id="hashing">Hashing</h5>
+
+            <p>
+                Java Security Essentials allows you to obtain a hash representation of data using either the default algorithm or
+                other available hashing algorithms.
+            </p>
+
+            <p>You can use the default hashing algorithm (SHA512) to hash an array of bytes using the <span class="code">Hashing.hash()</span> method. <br/> <u>Note that
+            you have to convert your data (text, numbers, objects etc) into an array of bytes before hashing it:</u></p>
+
+            <pre class="prettyprint java">
+final String input = "MyRandomInput";
+System.out.println(Hashing.hash(input.getBytes()));</pre>
+
+            <p>The above code outputs: <br/> <span class="code">9bf4dfa7b45625e5475b5d8a6ee4d79c2e97cc1fe6dc88c1345fdd9e8df6167082e491425628bee18ed8862bff5a9006f6ffba909a1f6c658d3f81de35c72460</span></p>
+
+            <h6 id="hashingAlgorithms">Hashing algorithms</h6>
+
+            <p>You can also use other available hashing algorithms listed below (<span class="code">HashType</span>),
+                using the same function but providing the algorithm first:</p>
+
+            <ul class="browser-default">
+                <li>MD5</li>
+                <li>SHA1</li>
+                <li>SHA256</li>
+                <li>SHA384</li>
+                <li>SHA512 (default)</li>
+            </ul>
+
+            <pre class="prettyprint java">System.out.println(Hashing.hash(HashType.MD5, input.getBytes()));</pre>
+
+            <h6 id="salt">Hashing with salt</h6>
+
+            <p>
+                To make your hashes more secure, you need to use salt. Salt provides randomness to the algorithms,
+            making the resulting hash almost impossible to guess or find using a rainbow table. A salt is just a random
+                string of bytes that randomizes the output of the algorithm. Using salt, you need to
+            create it and store it securely so that you can use it to re-create the hash if needed.
+                To do this, you first need to create the salt using the <span class="code">Hashing.salt()</span> method:
+            </p>
+
+            <pre class="prettyprint java">final byte[] salt = Hashing.salt();</pre>
+
+            <p>Then, you can pass the salt (pun intended) as a parameter to the <span class="code">hash()</span> method:</p>
+
+            <pre class="prettyprint java">
+System.out.println(Hashing.hash(input.getBytes(), salt));
+//OR
+System.out.println(Hashing.hash(HashType.SHA512, input.getBytes(), salt));</pre>
+
+            <p><b>Remember to store the salt in a file or database, otherwise you will not be able to re-create the same hash.</b></p>
+
+
+            <!--------------------------------------------------------------------------------------------------------->
+
 
             <h5 id="TODO">TODO</h5>
 
@@ -88,12 +144,7 @@
 
             <pre class="prettyprint java">TODO</pre>
 
-
-
-
-
-
-
+            <!--------------------------------------------------------------------------------------------------------->
 
             <h4 id="example">Full example</h4>
 

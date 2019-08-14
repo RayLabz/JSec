@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Java Security Essentials1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Download/Java Security Essentials.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
