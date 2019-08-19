@@ -25,16 +25,19 @@ public class Hashing {
     private static final HashType DEFAULT_HASHTYPE = HashType.SHA512;
 
     /**
-     * Hashes given data using a given hashing algorithm and salt.
-     * @param hashType The hashing algorithm to use.
+     * Processes the hash using the given algorithm, data and salt.
+     * @param hashType The hashing algorithm.
      * @param data The data to hash.
-     * @param salt The salt data to use.
-     * @return Returns a string hash.
+     * @param salt The salt.
+     * @return Returns a hash as a string
      */
-    public static String hash(final HashType hashType, final byte[] data, final byte[] salt) {
+    private static String processHash(HashType hashType, final byte[] data, final byte[] salt) {
+        if (hashType == null) hashType = DEFAULT_HASHTYPE;
         try {
             MessageDigest md = MessageDigest.getInstance(hashType.toString());
-            md.update(salt);
+            if (salt != null) {
+                md.update(salt);
+            }
             byte[] bytes = md.digest(data);
             StringBuilder sb = new StringBuilder();
             for (byte aByte : bytes) {
@@ -44,6 +47,17 @@ public class Hashing {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+    }
+
+    /**
+     * Hashes given data using a given hashing algorithm and salt.
+     * @param hashType The hashing algorithm to use.
+     * @param data The data to hash.
+     * @param salt The salt data to use.
+     * @return Returns a string hash.
+     */
+    public static String hash(final HashType hashType, final byte[] data, final byte[] salt) {
+        return processHash(hashType, data, salt);
     }
 
     /**
@@ -53,17 +67,7 @@ public class Hashing {
      * @return Returns a string hash.
      */
     public static String hash(final HashType hashType, final byte[] data) {
-        try {
-            MessageDigest md = MessageDigest.getInstance(hashType.toString());
-            byte[] bytes = md.digest(data);
-            StringBuilder sb = new StringBuilder();
-            for (byte aByte : bytes) {
-                sb.append(Integer.toString((aByte & 0xff) + 0x100, 16).substring(1));
-            }
-            return sb.toString();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        return processHash(hashType, data, null);
     }
 
     /**
@@ -73,18 +77,7 @@ public class Hashing {
      * @return Returns a string hash.
      */
     public static String hash(final byte[] data, final byte[] salt) {
-        try {
-            MessageDigest md = MessageDigest.getInstance(DEFAULT_HASHTYPE.toString());
-            md.update(salt);
-            byte[] bytes = md.digest(data);
-            StringBuilder sb = new StringBuilder();
-            for (byte aByte : bytes) {
-                sb.append(Integer.toString((aByte & 0xff) + 0x100, 16).substring(1));
-            }
-            return sb.toString();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        return processHash(null, data, salt);
     }
 
     /**
@@ -93,17 +86,48 @@ public class Hashing {
      * @return Returns a string hash.
      */
     public static String hash(final byte[] data) {
-        try {
-            MessageDigest md = MessageDigest.getInstance(DEFAULT_HASHTYPE.toString());
-            byte[] bytes = md.digest(data);
-            StringBuilder sb = new StringBuilder();
-            for (byte aByte : bytes) {
-                sb.append(Integer.toString((aByte & 0xff) + 0x100, 16).substring(1));
-            }
-            return sb.toString();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        return processHash(null, data, null);
+    }
+
+    //***
+    /**
+     * Hashes given text using a given hashing algorithm and salt.
+     * @param hashType The hashing algorithm to use.
+     * @param data The data to hash.
+     * @param salt The salt data to use.
+     * @return Returns a string hash.
+     */
+    public static String hash(final HashType hashType, final String data, final byte[] salt) {
+        return processHash(hashType, data.getBytes(), salt);
+    }
+
+    /**
+     * Hashes given text using a given hashing algorithm.
+     * @param hashType The hashing algorithm to use.
+     * @param data The data to hash.
+     * @return Returns a string hash.
+     */
+    public static String hash(final HashType hashType, final String data) {
+        return processHash(hashType, data.getBytes(), null);
+    }
+
+    /**
+     * Hashes given text using the default hashing algorithm and the given salt.
+     * @param data The data to hash.
+     * @param salt The salt data to use.
+     * @return Returns a string hash.
+     */
+    public static String hash(final String data, final byte[] salt) {
+        return processHash(null, data.getBytes(), salt);
+    }
+
+    /**
+     * Hashes given text using the default hashing algorithm.
+     * @param data The data to hash.
+     * @return Returns a string hash.
+     */
+    public static String hash(final String data) {
+        return processHash(null, data.getBytes(), null);
     }
 
     /**

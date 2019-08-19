@@ -6,26 +6,79 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d70f8055-36a6-4436-9e96-7eb4df2319b6" name="Default Changelist" comment="" />
+    <list default="true" id="d70f8055-36a6-4436-9e96-7eb4df2319b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/src/HashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/HashingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/src/SymmetricEncryptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/SymmetricEncryptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/panickapps/javasecurity/Hashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/panickapps/javasecurity/Hashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/panickapps/javasecurity/SymmetricEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/panickapps/javasecurity/SymmetricEncryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/AsymmetricEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/AsymmetricEncryption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/HashType.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/HashType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/Hashing.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/Hashing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/SymmetricEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/SymmetricEncryption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hashing.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/Hashing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="192">
+              <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2159#2160#0" expanded="true" />
+                <element signature="e#2215#2216#0" expanded="true" />
+                <element signature="e#2499#2500#0" expanded="true" />
+                <element signature="e#2555#2556#0" expanded="true" />
+                <element signature="e#2756#2757#0" expanded="true" />
+                <element signature="e#2812#2813#0" expanded="true" />
+                <element signature="e#4087#4088#0" expanded="true" />
+                <element signature="e#4139#4140#0" expanded="true" />
+                <element signature="e#4344#4345#0" expanded="true" />
+                <element signature="e#4396#4397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/AsymmetricEncryption.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsymmetricEncryption.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/AsymmetricEncryption.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/SymmetricEncryption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1148">
-              <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
+            <state relative-caret-position="128">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,20 +133,11 @@
         <option value="$PROJECT_DIR$/Test/src/AsymmetricEncryptionTest.java" />
         <option value="$PROJECT_DIR$/Test/src/HashingTest.java" />
         <option value="$PROJECT_DIR$/src/com/panickapps/javasecurity/HashType.java" />
-        <option value="$PROJECT_DIR$/src/com/panickapps/javasecurity/AsymmetricEncryption.java" />
         <option value="$PROJECT_DIR$/src/com/panickapps/javasecurity/Hashing.java" />
+        <option value="$PROJECT_DIR$/src/com/panickapps/javasecurity/AsymmetricEncryption.java" />
         <option value="$PROJECT_DIR$/src/com/panickapps/javasecurity/SymmetricEncryption.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -116,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,10 +182,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -183,109 +227,68 @@
       <updated>1565679554757</updated>
       <workItem from="1565679556346" duration="10013000" />
       <workItem from="1565717361041" duration="9923000" />
+      <workItem from="1566161300414" duration="669000" />
+      <workItem from="1566197697422" duration="2049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19936000" />
+    <option name="totallyTimeSpent" value="22654000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1753" height="954" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32936078" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15085287" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.32821724" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.14778608" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.39905548" />
-      <window_info anchor="right" id="Flutter Inspector" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39905548" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Flutter Inspector" order="1" />
       <window_info anchor="right" id="Flutter Outline" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/SymmetricEncryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/HashedItem.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/nio/charset/StandardCharsets.java" />
     <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/AES.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/security/Key.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/security/PublicKey.java" />
     <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/Hash.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/nio/charset/StandardCharsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/AsymmetricEncryptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/HashingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/SymmetricEncryptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/nio/charset/StandardCharsets.java" />
+    <entry file="file://$PROJECT_DIR$/Test/src/AsymmetricEncryptionTest.java" />
+    <entry file="file://$PROJECT_DIR$/Test/src/HashingTest.java" />
+    <entry file="file://$PROJECT_DIR$/Test/src/SymmetricEncryptionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/HashType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -293,30 +296,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/SymmetricEncryption.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="-313">
+          <caret line="547" column="22" selection-start-line="547" selection-start-column="22" selection-end-line="547" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#20766#20767#0" expanded="true" />
+            <element signature="e#20846#20847#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/Hashing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="192">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2159#2160#0" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2499#2500#0" expanded="true" />
+            <element signature="e#2555#2556#0" expanded="true" />
+            <element signature="e#2756#2757#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#4087#4088#0" expanded="true" />
+            <element signature="e#4139#4140#0" expanded="true" />
+            <element signature="e#4344#4345#0" expanded="true" />
+            <element signature="e#4396#4397#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/AsymmetricEncryption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1148">
-          <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
+        <state relative-caret-position="386">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/SymmetricEncryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
