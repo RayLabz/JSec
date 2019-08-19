@@ -1,4 +1,4 @@
-package com.panickapps.javasecurity;
+package com.panickapps.jsec;
 
 /**
  * Created by PaNickApps - 2019

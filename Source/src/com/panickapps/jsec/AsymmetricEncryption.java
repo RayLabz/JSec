@@ -1,4 +1,4 @@
-package com.panickapps.javasecurity;
+package com.panickapps.jsec;
 
 import javax.crypto.Cipher;
 import java.security.*;

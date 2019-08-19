@@ -1,5 +1,5 @@
-import com.panickapps.javasecurity.HashType;
-import com.panickapps.javasecurity.Hashing;
+import com.panickapps.jsec.HashType;
+import com.panickapps.jsec.Hashing;
 
 public class HashingTest {
 

@@ -1,4 +1,4 @@
-import com.panickapps.javasecurity.AsymmetricEncryption;
+import com.panickapps.jsec.AsymmetricEncryption;
 
 import java.security.PrivateKey;
 import java.security.PublicKey;

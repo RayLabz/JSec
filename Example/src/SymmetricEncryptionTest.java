@@ -1,4 +1,4 @@
-import com.panickapps.javasecurity.SymmetricEncryption;
+import com.panickapps.jsec.SymmetricEncryption;
 
 public class SymmetricEncryptionTest {
 

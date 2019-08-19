@@ -1,4 +1,4 @@
-package com.panickapps.javasecurity;
+package com.panickapps.jsec;
 
 import java.security.MessageDigest;
 import java.security.SecureRandom;
