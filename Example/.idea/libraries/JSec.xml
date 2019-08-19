@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JSec">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Source/out/artifacts/JSec_jar/JSec.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

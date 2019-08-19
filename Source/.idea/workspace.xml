@@ -2,46 +2,17 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Java Security Essentials:jar" />
+      <artifact name="JSec:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d70f8055-36a6-4436-9e96-7eb4df2319b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Example/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Download/Java Security Essentials.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/Java Security Essentials Example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/JSec Example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/HashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/HashingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/SymmetricEncryptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/SymmetricEncryptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Java_Security_Essentials_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Java_Security_Essentials_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Java_Security_Essentials_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JSec_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Security Essentials.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JSec.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Security Essentials/com/panickapps/javasecurity/HashType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/AsymmetricEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/AsymmetricEncryption.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/HashType.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/HashType.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/Hashing.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/Hashing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/SymmetricEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/SymmetricEncryption.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,20 +29,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/Hashing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="1785">
               <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2159#2160#0" expanded="true" />
-                <element signature="e#2215#2216#0" expanded="true" />
-                <element signature="e#2499#2500#0" expanded="true" />
-                <element signature="e#2555#2556#0" expanded="true" />
-                <element signature="e#2756#2757#0" expanded="true" />
-                <element signature="e#2812#2813#0" expanded="true" />
-                <element signature="e#4087#4088#0" expanded="true" />
-                <element signature="e#4139#4140#0" expanded="true" />
-                <element signature="e#4344#4345#0" expanded="true" />
-                <element signature="e#4396#4397#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/SymmetricEncryption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
+            <state relative-caret-position="1054">
               <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -142,15 +103,6 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/Test/Test.iml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="726" />
     <option name="y" value="-15" />
@@ -167,32 +119,45 @@
         <subPane>
           <expand>
             <path>
-              <item name="Java Security Essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSec" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Java Security Essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSec" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Java Security Essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="JSec_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSec" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javasecurity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Example" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -202,7 +167,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -218,55 +183,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="JSec" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="JSec" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -281,11 +197,13 @@
       <workItem from="1565717361041" duration="9923000" />
       <workItem from="1566161300414" duration="669000" />
       <workItem from="1566197697422" duration="2235000" />
+      <workItem from="1566200122414" duration="16000" />
+      <workItem from="1566200185512" duration="165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22840000" />
+    <option name="totallyTimeSpent" value="23021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -295,7 +213,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15085287" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15405117" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32936078" />
@@ -360,27 +278,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/Hashing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="1785">
           <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2159#2160#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2499#2500#0" expanded="true" />
-            <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2756#2757#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-            <element signature="e#4087#4088#0" expanded="true" />
-            <element signature="e#4139#4140#0" expanded="true" />
-            <element signature="e#4344#4345#0" expanded="true" />
-            <element signature="e#4396#4397#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/panickapps/javasecurity/SymmetricEncryption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="1054">
           <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -404,7 +312,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Java Security Essentials:jar</last-edited>
+          <last-edited>JSec:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -453,11 +361,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Java Security Essentials</last-edited>
+          <last-edited>JSec</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
