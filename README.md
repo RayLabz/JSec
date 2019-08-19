@@ -5,7 +5,7 @@ JSec is a simple security library which provides industry-standard encryption an
 <b>The package requires Java 8+</b>
 
 ## Download
-Download JSec (https://github.com/panickapps/JSec/raw/master/Download/JSec.jar)[here]
+Download JSec [https://github.com/panickapps/JSec/raw/master/Download/JSec.jar](here).
 
 ## Guide
 Visit the guide (here)[https://panickapps.github.io/JSec/]
