@@ -12,7 +12,7 @@ public class HashingTest {
 
         //Default:
         System.out.println("Default hashing (SHA512):");
-        System.out.println(Hashing.hash(input.getBytes()));
+        System.out.println(Hashing.hash(input));
 
         System.out.println();
 

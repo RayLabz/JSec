@@ -3,9 +3,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <link rel="shortcut icon" type="image/png" href="images/java_security_essentials.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/jsec.png"/>
     <meta name="theme-color" content="#212121" />
-    <title>Java Security Essentials - PaNickApps</title>
+    <title>JSec - PaNickApps</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,21 +23,23 @@
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
             <br><br>
-            <h1 class="header center grey-text text-darken-4">Java Security Essentials</h1>
+            <h1 class="header center grey-text text-darken-4">JSec</h1>
             <div class="row center">
-                <img class="responsive-img" src="images/java_security_essentials.png" width="200" />
-                <!-- TODO IMAGE! -->
+                <img class="responsive-img" src="images/jsec.png" width="200" />
             </div>
             <div class="row center">
                 <h5 class="header col s12 light">A simple encryption and hashing library for Java.</h5>
             </div>
             <div class="row center">
-                <a href="https://github.com/panickapps/Java-Security-Essentials/blob/master/Download/Java%20Security%20Essentials.jar" id="download-button"
+                <a href="https://github.com/panickapps/JSec/raw/master/Download/JSec.jar" id="download-button"
                    class="btn-large waves-effect waves-light grey darken-4">Download</a>
             </div>
 
             <p class="justify">
-                TODO Description
+                JSec is a simple security library which provides industry-standard encryption and hashing functions for Java applications.
+                The library allows hashing using multiple algorithms and symmetric or asymmetric encryption. It is designed to be
+                easy to use, speed up development time and allow developers to focus on other aspects of development rather than creating
+                their own security packages.
             </p>
 
             <p><b>The package requires Java 8+</b></p>
@@ -56,13 +58,7 @@
                          </ul>
                      </li>
                      <li><a href="#symmetricEncryption">Symmetric Encryption</a></li>
-                     <li><a href="#asymmetricEncryption">Asymmetric Encryption</a>
-                         <ul class="browser-default">
-                             <li><a href="#randomkey">Encryption and decryption using random keys</a></li>
-                             <li><a href="#storingKey">Storing keys</a></li>
-                             <li><a href="#settingKey">Setting keys</a></li>
-                         </ul>
-                     </li>
+                     <li><a href="#asymmetricEncryption">Asymmetric Encryption</a></li>
                  </ul>
                  </li>
                 <li><a href="#example">Full example</a></li>
@@ -76,23 +72,27 @@
             <h5 id="downloadAndImport">Download and import</h5>
 
             <p>
-                You can download Java Security Essentials <a href="https://github.com/panickapps/Java-Security-Essentials/blob/master/Download/Java%20Security%20Essentials.jar">here</a>.
+                You can download JSec <a href="https://github.com/panickapps/JSec/raw/master/Download/JSec.jar">here</a>.
                 Then import it in your project as a Java library (.jar).
             </p>
 
             <h5 id="hashing">Hashing</h5>
 
             <p>
-                Java Security Essentials allows you to obtain a hash representation of data using either the default algorithm or
-                other available hashing algorithms.
+                JSec allows you to obtain a hash representation of text and raw data using various hashing algorithms.
+                SHA512 is used by default. To hash text or raw data, use the <span class="code">Hashing.hash()</span> method.<br/>
             </p>
-
-            <p>You can use the default hashing algorithm (SHA512) to hash an array of bytes using the <span class="code">Hashing.hash()</span> method. <br/> <u>Note that
-            you have to convert your data (text, numbers, objects etc) into an array of bytes before hashing it:</u></p>
 
             <pre class="prettyprint java">
 final String input = "MyRandomInput";
-String hash = Hashing.hash(input.getBytes());</pre>
+String hash = Hashing.hash(input);</pre>
+
+            <p>Alternatively, you can convert any type of data into raw bytes and hash them:</p>
+
+            <pre class="prettyprint java">
+final String input = "MyRandomInput";
+final byte[] rawData = input.getBytes();
+String hash = Hashing.hash(rawData);</pre>
 
             <h6 id="hashingAlgorithms">Hashing algorithms</h6>
 
@@ -107,18 +107,19 @@ String hash = Hashing.hash(input.getBytes());</pre>
                 <li>SHA512 (default)</li>
             </ul>
 
-            <pre class="prettyprint java">String hash = Hashing.hash(HashType.MD5, input.getBytes());</pre>
+            <pre class="prettyprint java">String hash = Hashing.hash(HashType.MD5, input);</pre>
 
-            <p>It is suggested to use the SHA512 (the default algorithm) when hashing as it is more secure.</p>
+            <p>However, use of the default hashing algorithm is suggested to provide better security. For even greater security,
+            please look into using salt in the section below.</p>
 
             <h6 id="salt">Hashing with salt</h6>
 
             <p>
                 To make your hashes more secure, you need to use salt. Salt provides randomness to the algorithms,
             making the resulting hash computationally infeasible to guess or find using a rainbow table. A salt is a random
-                string of bytes that randomizes the output of the algorithm. To use salt, you need to create one and
-                store it securely so that you can use it to re-create the same hash for the same data again if needed.
-                To create the salt use the <span class="code">Hashing.salt()</span> method:
+                string of bytes that randomizes the output of the algorithm. To provide better security, you need to create
+                a salt and store it securely so that you can use it to re-create the same hash for the same data again if needed.
+                To create a random salt, use the <span class="code">Hashing.salt()</span> method:
             </p>
 
             <pre class="prettyprint java">final byte[] salt = Hashing.salt();</pre>
@@ -126,9 +127,9 @@ String hash = Hashing.hash(input.getBytes());</pre>
             <p>Then, you can pass the salt (pun intended) as a parameter to the <span class="code">hash()</span> method:</p>
 
             <pre class="prettyprint java">
-Hashing.hash(input.getBytes(), salt);
+Hashing.hash(input, salt);
 //OR
-Hashing.hash(HashType.SHA512, input.getBytes(), salt);</pre>
+Hashing.hash(HashType.MD5, input, salt);</pre>
 
             <p><b>Remember to store the salt in a file or database, otherwise you will not be able to re-create the same hash.</b></p>
 
@@ -138,8 +139,8 @@ Hashing.hash(HashType.SHA512, input.getBytes(), salt);</pre>
 
             <p>
                 You can symmetrically encrypt text with a key/password using the <span class="code">SymmetricEncryption</span> class.
-                Under the hood, this class utilizes the Advanced Encryption Standard (AES) algorithm, which is the adopted worldwide
-                standard for symmetric encryption. To encrypt a text, use the <span class="code">SymmetricEncryption.encrypt()</span>
+                This class utilizes the Advanced Encryption Standard (AES) algorithm, which is the adopted worldwide
+                standard for symmetric encryption. To encrypt, use the <span class="code">SymmetricEncryption.encrypt()</span>
                 method with your input and key/password as parameters:
             </p>
 
@@ -147,22 +148,66 @@ Hashing.hash(HashType.SHA512, input.getBytes(), salt);</pre>
 final String input = "MyRandomInput";
 final String encrypted = SymmetricEncryption.encrypt(input, key);</pre>
 
-            <p>To decrypt an encrypted text, you can use the </p>
+            <p>To decrypt an encrypted text, you can use the <span class="code">decrypt()</span> method:</p>
+
+            <pre class="prettyprint java">
+final String decrypted = SymmetricEncryption.decrypt(encrypted, key);</pre>
 
 
-            <h5 id="TODO">TODO</h5>
+            <h5 id="asymmetricEncryption">Asymmetric Encryption</h5>
 
             <p>
-                TODO
+                You can asymmetrically encrypt data using the <span class="code">AsymmetricEncryption</span> class,
+                which uses the RSA algorithm. Asymmetric encryption can be used to provide better security against password
+                theft and is commonly used in secure communications. A public and private key are automatically generated
+                for you, so you may directly encrypt data without having to create keys.
             </p>
 
-            <pre class="prettyprint java">TODO</pre>
+            <p>To asymmetrically encrypt data using the randomly generated keys, use the <span class="code">encrypt()</span> method:</p>
+
+            <pre class="prettyprint java">
+final String input = "MyRandomInput";
+byte[] encrypted = AsymmetricEncryption.encrypt(input.getBytes());</pre>
+
+            <p>You may then decrypt the data using the <span class="code">decrypt()</span> method:</p>
+
+            <pre class="prettyprint java">
+byte[] decrypted = AsymmetricEncryption.decrypt(encrypted);</pre>
+
+            <p>Asymmetric encryption is useless without obtaining the public and private keys. To obtain these keys, use the
+            <span class="code">getPrivateKey()</span> and <span class="code">getPublicKey()</span> methods correspondingly:</p>
+
+            <pre class="prettyprint java">
+PrivateKey privateKey = AsymmetricEncryption.getPrivateKey();
+PublicKey publicKey = AsymmetricEncryption.getPublicKey();</pre>
+
+            <p>You may then convert these keys into bytes and store them in a file or database for future use or send
+                them to another client, using the <span class="code">getEncoded()</span> method:</p>
+
+            <pre class="prettyprint java">
+byte[] privateKeyBytes = privateKey.getEncoded();
+byte[] publicKeyBytes = publicKey.getEncoded();</pre>
+
+            <p>After storing the keys, you can load them using the <span class="code">getPrivateKeyFromBytes()</span>
+            and <span class="code">getPublicKeyFromBytes()</span> methods correspondingly:</p>
+
+            <pre class="prettyprint java">
+privateKey = AsymmetricEncryption.getPrivateKeyFromBytes(privateKeyBytes);
+publicKey = AsymmetricEncryption.getPublicKeyFromBytes(publicKeyBytes);</pre>
+
+            <p>Then use the <span class="code">setKeyPair()</span> method to set the keys:</p>
+
+            <pre class="prettyprint java">
+AsymmetricEncryption.setKeyPair(publicKey, privateKey);</pre>
+
+            <p>In case you are loading pre-stored keys or received keys, make sure to load them before encrypting or decrypting, otherwise
+            random keys will be used and the data will not be encrypted/decrypted correctly.</p>
 
             <!--------------------------------------------------------------------------------------------------------->
 
             <h4 id="example">Full example</h4>
 
-            <p>Please see the <a href="https://github.com/panickapps/Java-Security-Essentials/tree/master/Example">complete example here.</a></p>
+            <p>Please see the <a href="https://github.com/panickapps/JSec/tree/master/Example">complete example here.</a></p>
 
             <h4 id="documentation">Documentation</h4>
 
@@ -171,18 +216,18 @@ final String encrypted = SymmetricEncryption.encrypt(input, key);</pre>
             <h4 id="usage">License</h4>
 
             <p>
-                Java Security Essentials is released under the <a href="https://github.com/panickapps/Java-Security-Essentials/blob/master/LICENSE">Apache 2.0 license</a>.
+                JSec is released under the <a href="https://github.com/panickapps/JSec/blob/master/LICENSE">Apache 2.0 license</a>.
             </p>
 
             <h4 id="source">Source code</h4>
 
             <p>
-                You can find the source code at the project's repository <a href="https://github.com/panickapps/Java-Security-Essentials/">here</a>.
+                You can find the source code at the project's repository <a href="https://github.com/panickapps/JSec/">here</a>.
             </p>
 
             <h4 id="bugreport">Bug reporting</h4>
 
-            <p>Please report bugs <a href="mailto:panickapps@gmail.com?subject=Java-Security-Essentials">here</a>.</p>
+            <p>Please report bugs <a href="mailto:panickapps@gmail.com?subject=JSec">here</a>.</p>
 
             <br/><br/>
         </div>
