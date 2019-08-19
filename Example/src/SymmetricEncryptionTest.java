@@ -13,6 +13,7 @@ public class SymmetricEncryptionTest {
         System.out.println("Input => " + input);
         System.out.println("Encrypted => " + encrypted);
         System.out.println("Decrypted => " + decrypted);
+
     }
 
 }

@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/SymmetricEncryptionTest.java" line="4" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b752b1e4-31e7-4ec9-a470-9ae907afa65d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_Security_Essentials1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Security Essentials Example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Security Essentials Example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Security Essentials Example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JSec Example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SymmetricEncryptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SymmetricEncryptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Source/.idea/artifacts/Java_Security_Essentials_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Source/.idea/artifacts/Java_Security_Essentials_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Source/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Source/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Source/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Source/Java Security Essentials.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Source/JSec.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/images/java-http.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/AsymmetricEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/AsymmetricEncryption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/HashType.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/HashType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/Hashing.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/Hashing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/SymmetricEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/SymmetricEncryption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/com/panickapps/javasecurity/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation/overview-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,16 +48,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="82" />
+            <state relative-caret-position="449">
+              <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -42,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SymmetricEncryptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="238">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -60,6 +88,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/HashingTest.java" />
+        <option value="$PROJECT_DIR$/src/SymmetricEncryptionTest.java" />
       </list>
     </option>
   </component>
@@ -100,6 +129,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Download/Java Security Essentials.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -124,10 +159,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashingTest">
+  <component name="RunManager" selected="Application.SymmetricEncryptionTest">
     <configuration name="AsymmetricEncryptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AsymmetricEncryptionTest" />
-      <module name="Java Security Essentials Example" />
+      <module name="JSec Example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,7 +170,7 @@
     </configuration>
     <configuration name="HashingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashingTest" />
-      <module name="Java Security Essentials Example" />
+      <module name="JSec Example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,7 +178,7 @@
     </configuration>
     <configuration name="SymmetricEncryptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SymmetricEncryptionTest" />
-      <module name="Java Security Essentials Example" />
+      <module name="JSec Example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,6 +193,53 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="JSec Example" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="JSec Example" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,8 +260,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashingTest" />
         <item itemvalue="Application.SymmetricEncryptionTest" />
+        <item itemvalue="Application.HashingTest" />
         <item itemvalue="Application.AsymmetricEncryptionTest" />
       </list>
     </recent_temporary>
@@ -197,25 +279,26 @@
       <workItem from="1565723446305" duration="462000" />
       <workItem from="1565726036608" duration="160000" />
       <workItem from="1565777907687" duration="1535000" />
+      <workItem from="1565896286385" duration="1770000" />
+      <workItem from="1565967869448" duration="17000" />
+      <workItem from="1566199287057" duration="634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2157000" />
+    <option name="totallyTimeSpent" value="4578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -229,9 +312,8 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -241,16 +323,19 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Flutter Inspector" order="10" />
+      <window_info anchor="right" id="Flutter Outline" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashingTest.java">
+    <entry file="jar://$PROJECT_DIR$/../Download/Java Security Essentials.jar!/com/panickapps/javasecurity/SymmetricEncryption.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="82" />
+        <state relative-caret-position="34">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -261,10 +346,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Source/out/artifacts/Java_Security_Essentials_jar/Java Security Essentials.jar!/com/panickapps/javasecurity/SymmetricEncryption.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SymmetricEncryptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>

@@ -139,15 +139,15 @@ Hashing.hash(HashType.SHA512, input.getBytes(), salt);</pre>
             <p>
                 You can symmetrically encrypt text with a key/password using the <span class="code">SymmetricEncryption</span> class.
                 Under the hood, this class utilizes the Advanced Encryption Standard (AES) algorithm, which is the adopted worldwide
-                standard for symmetric encryption. To encrypt a given input, use the <span class="code">SymmetricEncryption.encrypt()</span>
-                method:
+                standard for symmetric encryption. To encrypt a text, use the <span class="code">SymmetricEncryption.encrypt()</span>
+                method with your input and key/password as parameters:
             </p>
 
             <pre class="prettyprint java">
 final String input = "MyRandomInput";
 final String encrypted = SymmetricEncryption.encrypt(input, key);</pre>
 
-
+            <p>To decrypt an encrypted text, you can use the </p>
 
 
             <h5 id="TODO">TODO</h5>

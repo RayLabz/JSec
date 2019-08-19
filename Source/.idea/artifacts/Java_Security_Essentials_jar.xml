@@ -2,7 +2,7 @@
   <artifact type="jar" name="Java Security Essentials:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Java_Security_Essentials_jar</output-path>
     <root id="archive" name="Java Security Essentials.jar">
-      <element id="module-output" name="Java Security Essentials" />
+      <element id="module-output" name="JSec" />
     </root>
   </artifact>
 </component>

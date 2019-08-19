@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java Security Essentials.iml" filepath="$PROJECT_DIR$/Java Security Essentials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSec.iml" filepath="$PROJECT_DIR$/JSec.iml" />
     </modules>
   </component>
 </project>

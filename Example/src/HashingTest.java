@@ -91,6 +91,14 @@ public class HashingTest {
         System.out.println("SHA512 w/ salt:");
         System.out.println(Hashing.hash(HashType.SHA512, input.getBytes(), salt));
 
+        /*------------------------------------ Hashing raw data ------------------------------------------------------*/
+
+        System.out.println();
+
+        byte[] rawData = input.getBytes();
+        System.out.println("Hashing raw data:");
+        System.out.println(Hashing.hash(rawData));
+
     }
 
 }
