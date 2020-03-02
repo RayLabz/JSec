@@ -5,22 +5,22 @@ JSec is a simple security library which provides industry-standard encryption an
 <b>The package requires Java 8+</b>
 
 ## Download
-Download JSec [here](https://github.com/panickapps/JSec/raw/master/Download/JSec.jar).
+Download JSec [here](https://github.com/RayLabz/JSec/raw/master/Download/JSec.jar).
 
 ## Guide
-Visit the guide [here](https://panickapps.github.io/JSec/)
+Visit the guide [here](https://RayLabz.github.io/JSec/)
 
 ## Full example
-Please see the [complete example here](https://github.com/panickapps/JSec/tree/master/Example).
+Please see the [complete example here](https://github.com/RayLabz/JSec/tree/master/Example).
 
 ## Documentation
-Visit the [documentation](https://panickapps.github.io/JSec/documentation).
+Visit the [documentation](https://RayLabz.github.io/JSec/documentation).
 
 ## License
-JSec is released under the [Apache 2.0 license](https://github.com/panickapps/JSec/blob/master/LICENSE).
+JSec is released under the [Apache 2.0 license](https://github.com/RayLabz/JSec/blob/master/LICENSE).
 
 ## Source code
-You can find the source code at the project's repository [here](https://github.com/panickapps/JSec/).
+You can find the source code at the project's repository [here](https://github.com/RayLabz/JSec/).
 
 ## Bug reporting
-Please report bugs [here](mailto:panickapps@gmail.com?subject=JSec).
+Please report bugs [here](mailto:RayLabzg@gmail.com?subject=JSec).
