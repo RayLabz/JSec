@@ -1,4 +1,4 @@
-package com.panickapps.jsec;
+package com.raylabz.jsec;
 
 import javax.crypto.Cipher;
 import java.security.*;
@@ -7,13 +7,13 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 
 /**
- * Created by PaNickApps - 2019
- * Visit http://www.panickapps.com
+ * Created by RayLabz - 2019
+ * Visit http://www.RayLabz.com
  *
  * Java Security Essentials - A simple encryption and hashing library for Java.
  * Provides methods for hashing, symmetric and asymmetric encryption.
- * Repository: https://github.com/panickapps/java-security-essentials
- * Guide: https://panickapps.github.io/Java-Security-Essentials/
+ * Repository: https://github.com/RayLabz/java-security-essentials
+ * Guide: https://RayLabz.github.io/Java-Security-Essentials/
  *
  * Apache 2.0 License
  */
